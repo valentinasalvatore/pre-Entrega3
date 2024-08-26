@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Salvatore</title>
+</head>
+<body>
+    <header>
+        <h1>Cafeteria</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#informacion">Informacion</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <button id="eventoUno">Evento 1</button>
+        <h2>Inicio</h2>
+        <section id="inicio">
+            <div class="formularioIndex">
+                <form id="formulario">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Direccion">
+                    <input type="number" placeholder="Edad">
+                    <input type="email" placeholder="Email">
+     </section>
+
+        <section id="Informacion">
+            <h2>Informacion</h2>
+            <p>¡Somos una cafeteria que ofrece el mejor servicio para alegrarte el dia! :) </p>
+        </section>
+        <h1 id="titulo">Productos</h1>
+        <div class="buscador">
+            <input type="text" id="buscador-input" placeholder="Buscar productos...">
+        </div>
+        <div id="product-list"></div>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p><a href="correo: valentinasalvatore2005@gmail.com">valentinasalvatore2005@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer id="footer">
+    </footer>
+    <script src="Productos.js"></script>
+    <script src="eventos.js"></script>
+    <script src="JSON.js"></script>
+</body>
+</html>
 
